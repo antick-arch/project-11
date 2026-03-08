@@ -21,8 +21,42 @@
 </head>
 
 <body>
-    
 
+    <section class="h-screen bg-[#F8FAFC] flex items-center justify-center">
+        <div class="md:w-[520px] bg-white p-8 rounded-md shadow-md space-y-6">
+            <div class="flex flex-col items-center gap-6">
+                <div class="w-[100px]">
+                    <img class="w-full" src="./assets/github-logo.png" alt="">
+                </div>
+                <div>
+                <h2 class="font-semibold text-2xl">GitHub Issues Tracker</h2>
+                <p class="text-[#64748B] text-[1rem]">Sign in to manage your issues</p>
+                </div>
+            </div>
+            <fieldset class="fieldset w-full">
+
+                <legend class="fieldset-legend text-[#3D3746] text-[1rem] font-medium">Username</legend>
+                <input type="email" class="input w-full" placeholder="Enter Username" />
+                <p class="label text-[#4A00FF] text-[14px]">Default: admin</p>
+
+                <legend class="fieldset-legend text-[#3D3746] text-[1rem] font-medium">Password</legend>
+                <input type="password" class="input w-full" placeholder="Enter Password" />
+                <p class="label text-[#4A00FF] text-[14px]">Default: admin123</p>
+
+                <button class="btn btn-primary rounded-md mt-4">Sign In</button>
+            </fieldset>
+            <div class="flex items-center justify-center gap-2">
+                <hr class="w-2/4 text-[#E4E4E7]"> <span class="text-[1rem] text-[#1F2937]">OR</span> <hr class="w-2/4 text-[#E4E4E7]">
+            </div>
+            <div class="">
+                <p class="text-center mb-2 text-[#64748B]">Demo Credentials:</p>
+                <div class="py-6 bg-[#F8FAFC] text-center">
+                    <p><b>Username:</b> admin</p>
+                    <p><b>Password:</b> admin123</p>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- scripts -->
     <script src="scripts/script.js"></script>
 </body>
