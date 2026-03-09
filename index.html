@@ -21,8 +21,29 @@
 </head>
 
 <body>
-    
-
+    <header>
+        <div class="navbar bg-base-100 shadow-sm">
+            <div class="flex-1">
+                <div class="flex items-center">
+                    <div class="w-[36px]"><img class="w-full" src="./assets/github-logo.png" alt=""></div>
+                    <a class="font-semibold text-xl p-1">GitHub Issues Tracker</a>
+                </div>
+            </div>
+            <div class="flex gap-2">
+                <label class="input">
+                    <svg class="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <g stroke-linejoin="round" stroke-linecap="round" stroke-width="2.5" fill="none"
+                            stroke="currentColor">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="m21 21-4.3-4.3"></path>
+                        </g>
+                    </svg>
+                    <input type="search" required placeholder="Search issues..." />
+                </label>
+                <button>new card</button>
+            </div>
+        </div>
+    </header>
     <!-- scripts -->
     <script src="scripts/script.js"></script>
 </body>

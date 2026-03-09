@@ -20,10 +20,10 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 
-<body>
+<body class="bg-[#F8FAFC] min-h-screen flex items-center justify-center">
 
-    <section class="h-screen bg-[#F8FAFC] flex items-center justify-center py-4 md:py-0">
-        <div class="w-[80%] md:w-[30%] h-full bg-white p-6 md:p-8 rounded-md shadow-md space-y-4 md:space-y-6">
+    <section class="w-[90%] md:w-[30%]">
+        <div class=" bg-white p-6 md:p-8 rounded-md shadow-md space-y-4 md:space-y-6">
             <div class="flex flex-col items-center gap-6">
                 <div class="w-[70px] md:w-[100px]">
                     <img class="w-full" src="./assets/github-logo.png" alt="">
@@ -36,14 +36,14 @@
             <fieldset class="fieldset w-full">
 
                 <legend class="fieldset-legend text-[#3D3746] text-[1rem] font-medium">Username</legend>
-                <input type="email" class="input w-full" placeholder="Enter Username" />
+                <input id="user-inp" type="email" class="input w-full" placeholder="Enter Username" />
                 <p class="label text-[#4A00FF] text-[14px]">Default: admin</p>
 
                 <legend class="fieldset-legend text-[#3D3746] text-[1rem] font-medium">Password</legend>
-                <input type="password" class="input w-full" placeholder="Enter Password" />
+                <input id="user-pass" type="password" class="input w-full" placeholder="Enter Password" />
                 <p class="label text-[#4A00FF] text-[14px]">Default: admin123</p>
 
-                <button class="btn btn-primary rounded-md mt-4">Sign In</button>
+                <button id="sign-btn" class="btn btn-primary rounded-md mt-4">Sign In</button>
             </fieldset>
             <div class="flex items-center justify-center gap-2">
                 <hr class="w-2/4 text-[#E4E4E7]"> <span class="text-[1rem] text-[#1F2937]">OR</span> <hr class="w-2/4 text-[#E4E4E7]">
@@ -58,7 +58,7 @@
         </div>
     </section>
     <!-- scripts -->
+    <script src="scripts/login.js"></script>
     <script src="scripts/script.js"></script>
 </body>
-
 </html>
