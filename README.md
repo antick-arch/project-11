@@ -10,7 +10,7 @@ Ans : The spread operator is a JavaScript syntax that expands arrays, objects, o
 
 Ans : map(), filter(), and forEach() are all array methods. use map() when you want to change values, filter() when you want to pick values, and forEach() when you just want to do something with values.
 
-- 4️⃣** What is an arrow function?**
+- 4️⃣**What is an arrow function?**
   
 Ans : arrow function in JavaScript is a shorter way to write functions using the => syntax.
 
