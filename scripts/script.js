@@ -121,4 +121,15 @@ const manageSpinner = (status) => {
     }
 }
 
+
+document.getElementById('input-search').addEventListener('input', () => {
+    const searchValue = document.getElementById('input-search').value.trim().toLowerCase();
+    fetch(`https://phi-lab-server.vercel.app/api/v1/lab/issues/search?q=${searchValue}`)
+        .then(res => res.json())
+        .then(data => {
+            displayIssues(data.data); 
+        })
+});
+
+
 allIssues();
