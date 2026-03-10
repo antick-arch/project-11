@@ -56,13 +56,14 @@
         <button id="btn-closed" class="btn btn-md md:w-[120px] text-gray-500 btn-outline/20 ">Closed</button>
     </section>
 
-<section id="spinner-container" class="flex justify-center items-center p-4 md:p-8">
-    <span class="loading loading-spinner loading-xl"></span>
-</section>
+    <section id="spinner-container" class="flex justify-center items-center p-4 md:p-8">
+        <span class="loading loading-spinner loading-xl"></span>
+    </section>
 
     <section id="main-container" class="w-[80%] md:w-[72%] mx-auto bg-white rounded-md mb-6 md:mb-14 shadow">
 
-        <div class="bg-white p-6 flex flex-col md:flex-row gap-2 md:gap-0 justify-center md:justify-between rounded-t-lg">
+        <div
+            class="bg-white p-6 flex flex-col md:flex-row gap-2 md:gap-0 justify-center md:justify-between rounded-t-lg">
             <div class="flex gap-2">
                 <div
                     class="p-1 md:p-2 flex items-center justify-center w-[30px] md:w-[50px] h-[30px] md:h-[50px] rounded-full bg-[#ECE4FF]">
@@ -88,9 +89,25 @@
 
         <div id="card-container" class="bg-[#FBFBFB] p-6 grid grid-cols-1 md:grid-cols-4 gap-2 md:gap-3 rounded-lg">
 
-           
+
         </div>
     </section>
+
+
+    <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+        <div class="modal-box">
+            <div id="details-container">
+
+            </div>
+            <div class="modal-action">
+                <form method="dialog">
+                    <button class="btn btn-primary">Close</button>
+                </form>
+            </div>
+        </div>
+    </dialog>
+
+    
     <!-- scripts -->
     <script src="scripts/script.js"></script>
 </body>
