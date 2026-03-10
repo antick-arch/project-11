@@ -2,7 +2,7 @@
 
 Ans : var is function-scoped and allows redeclaration, let is block-scoped and allows reassignment but not redeclaration, while const is block-scoped and cannot be reassigned after initialization.
 
-- 2️⃣** What is the spread operator (...)?**
+- 2️⃣ What is the spread operator (...)?
 
 Ans : The spread operator is a JavaScript syntax that expands arrays, objects, or other iterables into individual elements or properties.
 
